@@ -14,6 +14,22 @@ export default {
 				background: "var(--background)",
 				foreground: "var(--foreground)",
 			},
+			screens: {
+				sm: "640px",
+				md: "768px",
+				lg: "1024px",
+				xl: "1280px",
+				"2xl": "1536px",
+			},
+			container: {
+				center: true,
+				padding: {
+					DEFAULT: "1rem",
+					sm: "2rem",
+					lg: "3rem",
+					xl: "4rem",
+				},
+			},
 		},
 	},
 	darkMode: "class",
